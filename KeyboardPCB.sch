@@ -3782,4 +3782,48 @@ Wire Wire Line
 	8850 7800 8850 9000
 Wire Wire Line
 	7550 8800 9050 8800
+Text GLabel 3950 1450 2    50   Input ~ 0
+ROW0
+Text GLabel 3950 1550 2    50   Input ~ 0
+ROW1
+Text GLabel 3950 1650 2    50   Input ~ 0
+ROW2
+Text GLabel 3950 1750 2    50   Input ~ 0
+ROW3
+Text GLabel 3950 1850 2    50   Input ~ 0
+ROW4
+Text GLabel 3950 2150 2    50   Input ~ 0
+ROW5
+Text GLabel 3950 1950 2    50   Input ~ 0
+ROW6
+Text GLabel 3950 2750 2    50   Input ~ 0
+ROW7
+Text GLabel 3950 2450 2    50   Input ~ 0
+ROW8
+Text GLabel 3950 2550 2    50   Input ~ 0
+ROW9
+Text GLabel 3950 2650 2    50   Input ~ 0
+ROW10
+Text GLabel 3950 2250 2    50   Input ~ 0
+ROW11
+Text GLabel 3950 2850 2    50   Input ~ 0
+COL0
+Text GLabel 3950 2950 2    50   Input ~ 0
+COL1
+Text GLabel 3950 3150 2    50   Input ~ 0
+COL3
+Text GLabel 3950 3050 2    50   Input ~ 0
+COL2
+Text GLabel 3950 3650 2    50   Input ~ 0
+COL4
+Text GLabel 3950 3750 2    50   Input ~ 0
+COL5
+Text GLabel 3950 3850 2    50   Input ~ 0
+COL6
+Text GLabel 3950 3950 2    50   Input ~ 0
+COL7
+Text GLabel 3950 4050 2    50   Input ~ 0
+COL8
+Text GLabel 3950 4150 2    50   Input ~ 0
+COL9
 $EndSCHEMATC
