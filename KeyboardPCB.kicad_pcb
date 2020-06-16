@@ -409,7 +409,7 @@
     (add_net VCC)
   )
 
-  (module random-keyboard-parts:Reset_Pretty_2pin (layer B.Cu) (tedit 5EE8C242) (tstamp 5EE7F45D)
+  (module ErlMod:Reset_Pretty_2pin (layer B.Cu) (tedit 5EE8C1C8) (tstamp 5EE7F45D)
     (at 127.635 79.121 270)
     (path /5EE7BB5D)
     (attr virtual)
@@ -429,9 +429,9 @@
     (fp_line (start 2.5 -1.25) (end 2.5 -3.75) (layer B.SilkS) (width 0.25))
     (fp_line (start 2.5 -3.75) (end -2.5 -3.75) (layer B.SilkS) (width 0.25))
     (fp_line (start -2.5 -3.75) (end -2.5 -1.25) (layer B.SilkS) (width 0.25))
-    (pad 2 thru_hole rect (at 1.27 -2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 1.27 -2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (pad 1 thru_hole circle (at -1.27 -2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at -1.27 -2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 "Net-(CONT1-Pad13)"))
   )
 
