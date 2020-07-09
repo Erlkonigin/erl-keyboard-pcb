@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:KeyboardPCB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU CONT1
+L KeyboardPCB-rescue:ATmega32U4-AU-MCU_Microchip_ATmega CONT1
 U 1 1 5EE5F3C1
 P 3350 2750
 F 0 "CONT1" H 3350 861 50  0000 C CNN

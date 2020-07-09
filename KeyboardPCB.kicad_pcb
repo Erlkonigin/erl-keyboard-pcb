@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.6)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../Out/"))
+      (outputdirectory "./"))
   )
 
   (net 0 "")
@@ -409,7 +409,7 @@
     (add_net VCC)
   )
 
-  (module ErlMod:Molex-0548190572 (layer B.Cu) (tedit 5EEA4F7B) (tstamp 5EEC300B)
+  (module ErlMod:Molex-0548190572 (layer B.Cu) (tedit 5EEA4F7B) (tstamp 5EEF3444)
     (at 113.665 -18.923 180)
     (path /5EF557EB)
     (fp_text reference USB1 (at 0 -6.6) (layer B.SilkS)
@@ -9553,13 +9553,13 @@
   (gr_text ESC (at 84.074 -6.35) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text MEDAI_VOLUP (at 65.024 -6.35) (layer B.SilkS)
+  (gr_text MEDIA_VOLUP (at 65.024 -6.35) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "MEDIA_VOLDN\n" (at 45.974 -6.35) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text MEDAI_MUTE (at 26.924 -6.35) (layer B.SilkS)
+  (gr_text MEDIA_MUTE (at 26.924 -6.35) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text MEDIA_FWD (at 8.001 -6.35) (layer B.SilkS)
@@ -11629,6 +11629,20 @@
         (xy 152.438835 71.768771) (xy 152.424692 71.782913) (xy 152.438835 71.797056) (xy 152.25923 71.976661) (xy 152.245087 71.962518)
         (xy 152.230945 71.976661) (xy 152.135781 71.881497) (xy 152.065364 71.754746) (xy 152.230945 71.589166) (xy 152.245087 71.603308)
         (xy 152.25923 71.589166)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 150.970661 68.791945) (xy 150.956518 68.806087) (xy 150.970661 68.82023) (xy 150.942748 68.848142) (xy 150.916688 68.822082)
+        (xy 150.952735 68.774019)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 152.717566 67.813647) (xy 152.574157 67.890301) (xy 152.479958 67.967608) (xy 152.479957 67.967609) (xy 152.448459 67.993459)
+        (xy 152.422611 68.024955) (xy 152.004631 68.442936) (xy 151.772696 68.214415) (xy 151.548193 68.214415) (xy 151.660444 68.102164)
+        (xy 151.651627 68.093347) (xy 151.845253 68.013144) (xy 152.092569 67.847893) (xy 152.113434 67.827029) (xy 152.160991 67.817517)
+        (xy 152.783771 67.793564)
       )
     )
   )

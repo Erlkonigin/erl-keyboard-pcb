@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>E:\Documents\Keyboard\PCB\erl-keyboard-pcb\KeyboardPCB.sch</source>
-    <date>16.06.2020 16:41:25</date>
-    <tool>Eeschema (5.1.6)-1</tool>
+    <date>21.06.2020 11:51:47</date>
+    <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -23,7 +23,7 @@
       <value>ATmega32U4-AU</value>
       <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
-      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <libsource lib="KeyboardPCB-rescue" part="ATmega32U4-AU-MCU_Microchip_ATmega" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE5F3C1</tstamp>
     </comp>
@@ -123,13 +123,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE7BB5D</tstamp>
     </comp>
-    <comp ref="USB1">
-      <value>Molex-0548190589</value>
-      <footprint>random-keyboard-parts:Molex-0548190589</footprint>
-      <libsource lib="random-keyboard-parts" part="Molex-0548190589" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EE819CE</tstamp>
-    </comp>
     <comp ref="FUSE_USB1">
       <value>500mA</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
@@ -140,7 +133,7 @@
     </comp>
     <comp ref="MX0:0_AFT1">
       <value>MEDIA_AFT</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE93020</tstamp>
@@ -155,7 +148,7 @@
     </comp>
     <comp ref="MX1:0_NUM1">
       <value>NUM_LOCK</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEA00D4</tstamp>
@@ -170,7 +163,7 @@
     </comp>
     <comp ref="MX2:0_NU7">
       <value>NUM_7</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEA14C2</tstamp>
@@ -185,7 +178,7 @@
     </comp>
     <comp ref="MX3:0_NU4">
       <value>NUM_4</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEA2CC5</tstamp>
@@ -200,7 +193,7 @@
     </comp>
     <comp ref="MX4:0_NU1">
       <value>NUM_1</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEA4302</tstamp>
@@ -215,7 +208,7 @@
     </comp>
     <comp ref="MX5:0_NU0">
       <value>NUM_0</value>
-      <footprint>MX_Alps_Hybrid:MX-2U-ReversedStabilizers-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2U-ReversedStabilizers-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEA5B08</tstamp>
@@ -230,7 +223,7 @@
     </comp>
     <comp ref="MX6:0_PRT1">
       <value>PRINT</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEA776F</tstamp>
@@ -245,7 +238,7 @@
     </comp>
     <comp ref="MX7:0_HOM1">
       <value>HOME</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEA9156</tstamp>
@@ -260,7 +253,7 @@
     </comp>
     <comp ref="MX8:0_END1">
       <value>END</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEC5DEC</tstamp>
@@ -275,7 +268,7 @@
     </comp>
     <comp ref="MX9:0_PGU1">
       <value>PAGE_UP</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEC7551</tstamp>
@@ -290,7 +283,7 @@
     </comp>
     <comp ref="MX10:0_PGU1">
       <value>PAGE_DOWN</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEC8D05</tstamp>
@@ -305,7 +298,7 @@
     </comp>
     <comp ref="MX11:0_RGT1">
       <value>ARROW_RIGHT</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EEDE8CD</tstamp>
@@ -336,7 +329,7 @@
     </comp>
     <comp ref="MX10:9_N1">
       <value>N</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016F55</tstamp>
@@ -351,7 +344,7 @@
     </comp>
     <comp ref="MX9:9_H1">
       <value>H</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016F48</tstamp>
@@ -366,7 +359,7 @@
     </comp>
     <comp ref="MX8:9_Y1">
       <value>Y</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016F3B</tstamp>
@@ -381,7 +374,7 @@
     </comp>
     <comp ref="MX7:9_6">
       <value>6</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016F2E</tstamp>
@@ -396,7 +389,7 @@
     </comp>
     <comp ref="MX6:9_F4">
       <value>F4</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016F21</tstamp>
@@ -411,7 +404,7 @@
     </comp>
     <comp ref="MX5:9_SPC1">
       <value>SPACE</value>
-      <footprint>MX_Alps_Hybrid:MX-6.25U-ReversedStabilizers-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-6.25U-ReversedStabilizers-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016F14</tstamp>
@@ -426,7 +419,7 @@
     </comp>
     <comp ref="MX4:9_B1">
       <value>B</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016F07</tstamp>
@@ -441,7 +434,7 @@
     </comp>
     <comp ref="MX3:9_G1">
       <value>G</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016EFA</tstamp>
@@ -456,7 +449,7 @@
     </comp>
     <comp ref="MX2:9_T1">
       <value>T</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016EED</tstamp>
@@ -471,7 +464,7 @@
     </comp>
     <comp ref="MX1:9_5">
       <value>5</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016EE0</tstamp>
@@ -486,7 +479,7 @@
     </comp>
     <comp ref="MX0:9_F3">
       <value>F3</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016ED3</tstamp>
@@ -501,7 +494,7 @@
     </comp>
     <comp ref="MX10:8_M1">
       <value>M</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016EB9</tstamp>
@@ -516,7 +509,7 @@
     </comp>
     <comp ref="MX9:8_J1">
       <value>J</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016EAC</tstamp>
@@ -531,7 +524,7 @@
     </comp>
     <comp ref="MX8:8_U1">
       <value>U</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E9F</tstamp>
@@ -546,7 +539,7 @@
     </comp>
     <comp ref="MX7:8_7">
       <value>7</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E92</tstamp>
@@ -561,7 +554,7 @@
     </comp>
     <comp ref="MX6:8_F5">
       <value>F5</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E85</tstamp>
@@ -576,7 +569,7 @@
     </comp>
     <comp ref="MX4:8_V1">
       <value>V</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E6B</tstamp>
@@ -591,7 +584,7 @@
     </comp>
     <comp ref="MX3:8_F1">
       <value>F</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E5E</tstamp>
@@ -606,7 +599,7 @@
     </comp>
     <comp ref="MX2:8_R1">
       <value>R</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E51</tstamp>
@@ -621,7 +614,7 @@
     </comp>
     <comp ref="MX1:8_4">
       <value>4</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E44</tstamp>
@@ -636,7 +629,7 @@
     </comp>
     <comp ref="MX0:8_F2">
       <value>F2</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E37</tstamp>
@@ -651,7 +644,7 @@
     </comp>
     <comp ref="MX10:7_,1">
       <value>&lt;</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E1D</tstamp>
@@ -666,7 +659,7 @@
     </comp>
     <comp ref="MX9:7_K1">
       <value>K</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E10</tstamp>
@@ -681,7 +674,7 @@
     </comp>
     <comp ref="MX8:7_I1">
       <value>I</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016E03</tstamp>
@@ -696,7 +689,7 @@
     </comp>
     <comp ref="MX7:7_8">
       <value>8</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016DF6</tstamp>
@@ -719,7 +712,7 @@
     </comp>
     <comp ref="MX4:7_C1">
       <value>C</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016DCF</tstamp>
@@ -734,7 +727,7 @@
     </comp>
     <comp ref="MX3:7_D1">
       <value>D</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016DC2</tstamp>
@@ -749,7 +742,7 @@
     </comp>
     <comp ref="MX2:7_E1">
       <value>E</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016DB5</tstamp>
@@ -764,7 +757,7 @@
     </comp>
     <comp ref="MX1:7_3">
       <value>3</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016DA8</tstamp>
@@ -779,7 +772,7 @@
     </comp>
     <comp ref="MX0:7_F1">
       <value>F1</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D9B</tstamp>
@@ -794,7 +787,7 @@
     </comp>
     <comp ref="MX11:6_AGR1">
       <value>ALT_GR</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D8E</tstamp>
@@ -809,7 +802,7 @@
     </comp>
     <comp ref="MX10:6_.1">
       <value>&gt;</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D81</tstamp>
@@ -824,7 +817,7 @@
     </comp>
     <comp ref="MX9:6_L1">
       <value>L</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D74</tstamp>
@@ -839,7 +832,7 @@
     </comp>
     <comp ref="MX8:6_O1">
       <value>O</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D67</tstamp>
@@ -854,7 +847,7 @@
     </comp>
     <comp ref="MX7:6_9">
       <value>9</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D5A</tstamp>
@@ -869,7 +862,7 @@
     </comp>
     <comp ref="MX6:6_F7">
       <value>F7</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D4D</tstamp>
@@ -884,7 +877,7 @@
     </comp>
     <comp ref="MX5:5_LAL1">
       <value>LEFT_ALT</value>
-      <footprint>MX_Alps_Hybrid:MX-1.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D40</tstamp>
@@ -899,7 +892,7 @@
     </comp>
     <comp ref="MX4:6_X1">
       <value>X</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D33</tstamp>
@@ -914,7 +907,7 @@
     </comp>
     <comp ref="MX3:6_S1">
       <value>S</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D26</tstamp>
@@ -929,7 +922,7 @@
     </comp>
     <comp ref="MX2:6_W1">
       <value>W</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D19</tstamp>
@@ -944,7 +937,7 @@
     </comp>
     <comp ref="MX1:6_2">
       <value>2</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016D0C</tstamp>
@@ -959,7 +952,7 @@
     </comp>
     <comp ref="MX0:6_ESC1">
       <value>ESC</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CFF</tstamp>
@@ -974,7 +967,7 @@
     </comp>
     <comp ref="MX11:5_OS1">
       <value>RIGHT_OS</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CF2</tstamp>
@@ -989,7 +982,7 @@
     </comp>
     <comp ref="MX10:5_/1">
       <value>/</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CE5</tstamp>
@@ -1004,7 +997,7 @@
     </comp>
     <comp ref="MX9:5_;1">
       <value>;</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CD8</tstamp>
@@ -1019,7 +1012,7 @@
     </comp>
     <comp ref="MX8:5_P1">
       <value>P</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CCB</tstamp>
@@ -1034,7 +1027,7 @@
     </comp>
     <comp ref="MX7:5_0">
       <value>0</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CBE</tstamp>
@@ -1049,7 +1042,7 @@
     </comp>
     <comp ref="MX6:5_F8">
       <value>F8</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CB1</tstamp>
@@ -1064,7 +1057,7 @@
     </comp>
     <comp ref="MX5:4_OS1">
       <value>LEFT_OS</value>
-      <footprint>MX_Alps_Hybrid:MX-1.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016CA4</tstamp>
@@ -1079,7 +1072,7 @@
     </comp>
     <comp ref="MX4:5_Z1">
       <value>Z</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016C97</tstamp>
@@ -1094,7 +1087,7 @@
     </comp>
     <comp ref="MX3:5_A1">
       <value>A</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016C8A</tstamp>
@@ -1109,7 +1102,7 @@
     </comp>
     <comp ref="MX2:5_Q1">
       <value>Q</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016C7D</tstamp>
@@ -1124,7 +1117,7 @@
     </comp>
     <comp ref="MX1:5_1">
       <value>1</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016C70</tstamp>
@@ -1139,7 +1132,7 @@
     </comp>
     <comp ref="MX0:5_VOL+1">
       <value>MEDIA_VOLUP</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016C63</tstamp>
@@ -1154,7 +1147,7 @@
     </comp>
     <comp ref="MX11:4_MEN1">
       <value>MENU</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD7E2</tstamp>
@@ -1169,7 +1162,7 @@
     </comp>
     <comp ref="MX10:4_RSH1">
       <value>RIGHT_SHIFT</value>
-      <footprint>MX_Alps_Hybrid:MX-2.75U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2.75U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD7D5</tstamp>
@@ -1184,7 +1177,7 @@
     </comp>
     <comp ref="MX9:4_'1">
       <value>'</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD7C8</tstamp>
@@ -1199,7 +1192,7 @@
     </comp>
     <comp ref="MX8:4_[1">
       <value>[</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD7BB</tstamp>
@@ -1214,7 +1207,7 @@
     </comp>
     <comp ref="MX7:4_-1">
       <value>- _</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD7AE</tstamp>
@@ -1229,7 +1222,7 @@
     </comp>
     <comp ref="MX6:4_F9">
       <value>F9</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD7A1</tstamp>
@@ -1244,7 +1237,7 @@
     </comp>
     <comp ref="MX5:3_LCT1">
       <value>LEFT_CTRL</value>
-      <footprint>MX_Alps_Hybrid:MX-1.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.25U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD794</tstamp>
@@ -1259,7 +1252,7 @@
     </comp>
     <comp ref="MX4:4_LSH1">
       <value>LEFT_SHIFT</value>
-      <footprint>MX_Alps_Hybrid:MX-2.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2.25U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD787</tstamp>
@@ -1274,7 +1267,7 @@
     </comp>
     <comp ref="MX3:4_CAP1">
       <value>CAPS</value>
-      <footprint>MX_Alps_Hybrid:MX-1.75U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.75U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD77A</tstamp>
@@ -1289,7 +1282,7 @@
     </comp>
     <comp ref="MX2:4_TAB1">
       <value>TAB</value>
-      <footprint>MX_Alps_Hybrid:MX-1.5U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1.5U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD76D</tstamp>
@@ -1304,7 +1297,7 @@
     </comp>
     <comp ref="MX1:4_TIL1">
       <value>`</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD760</tstamp>
@@ -1319,7 +1312,7 @@
     </comp>
     <comp ref="MX0:4_VOL-1">
       <value>MEDIA_VOLDN</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFAD753</tstamp>
@@ -1334,7 +1327,7 @@
     </comp>
     <comp ref="MX11:3_RCT1">
       <value>RIGHT_CTRL</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA42C2</tstamp>
@@ -1349,7 +1342,7 @@
     </comp>
     <comp ref="MX9:3_ENT1">
       <value>ENTER</value>
-      <footprint>MX_Alps_Hybrid:MX-2.25U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2.25U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA42A8</tstamp>
@@ -1364,7 +1357,7 @@
     </comp>
     <comp ref="MX8:3_]1">
       <value>]</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA429B</tstamp>
@@ -1379,7 +1372,7 @@
     </comp>
     <comp ref="MX7:3_=1">
       <value>= +</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA428E</tstamp>
@@ -1394,7 +1387,7 @@
     </comp>
     <comp ref="MX6:3_F10">
       <value>F10</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA4281</tstamp>
@@ -1409,7 +1402,7 @@
     </comp>
     <comp ref="MX4:3_NEN1">
       <value>NUM_ENTER</value>
-      <footprint>MX_Alps_Hybrid:MX-2U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA4267</tstamp>
@@ -1424,7 +1417,7 @@
     </comp>
     <comp ref="MX2:3_NU+1">
       <value>NUM_+</value>
-      <footprint>MX_Alps_Hybrid:MX-2U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA424D</tstamp>
@@ -1439,7 +1432,7 @@
     </comp>
     <comp ref="MX1:3_NU-1">
       <value>NUM_-</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA4240</tstamp>
@@ -1454,7 +1447,7 @@
     </comp>
     <comp ref="MX0:3_MUT1">
       <value>MEDIA_MUTE</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFA4233</tstamp>
@@ -1469,7 +1462,7 @@
     </comp>
     <comp ref="MX11:2_LFT1">
       <value>ARROW_LEFT</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF540C4</tstamp>
@@ -1484,7 +1477,7 @@
     </comp>
     <comp ref="MX9:2_PUS1">
       <value>PAUSE</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF540AA</tstamp>
@@ -1499,7 +1492,7 @@
     </comp>
     <comp ref="MX8:2_\1">
       <value>\ |</value>
-      <footprint>MX_Alps_Hybrid:MX-1.5U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF5409D</tstamp>
@@ -1514,7 +1507,7 @@
     </comp>
     <comp ref="MX7:2_BSP1">
       <value>BACKSPACE</value>
-      <footprint>MX_Alps_Hybrid:MX-2U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-2U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF54090</tstamp>
@@ -1529,7 +1522,7 @@
     </comp>
     <comp ref="MX6:2_F11">
       <value>F11</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF54083</tstamp>
@@ -1544,7 +1537,7 @@
     </comp>
     <comp ref="MX5:2_NUD1">
       <value>NUM_DEL</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF54076</tstamp>
@@ -1559,7 +1552,7 @@
     </comp>
     <comp ref="MX4:2_NU3">
       <value>NUM_3</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF54069</tstamp>
@@ -1574,7 +1567,7 @@
     </comp>
     <comp ref="MX2:2_NU9">
       <value>NUM_9</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF5404F</tstamp>
@@ -1589,7 +1582,7 @@
     </comp>
     <comp ref="MX1:2_NU*1">
       <value>NUM_*</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF54042</tstamp>
@@ -1604,7 +1597,7 @@
     </comp>
     <comp ref="MX0:2_FWD1">
       <value>MEDIA_FWD</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF54035</tstamp>
@@ -1619,7 +1612,7 @@
     </comp>
     <comp ref="MX11:1_DWN1">
       <value>ARROW_DOWN</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF140AE</tstamp>
@@ -1634,7 +1627,7 @@
     </comp>
     <comp ref="MX10:1_UP1">
       <value>ARROW_UP</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF140A1</tstamp>
@@ -1649,7 +1642,7 @@
     </comp>
     <comp ref="MX9:1_SLK1">
       <value>SCROLL_LOCK</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF14094</tstamp>
@@ -1664,7 +1657,7 @@
     </comp>
     <comp ref="MX8:1_DEL1">
       <value>DELETE</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF14087</tstamp>
@@ -1679,7 +1672,7 @@
     </comp>
     <comp ref="MX7:1_INS1">
       <value>INSERT</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF1407A</tstamp>
@@ -1694,7 +1687,7 @@
     </comp>
     <comp ref="MX6:1_F12">
       <value>F12</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF1406D</tstamp>
@@ -1709,7 +1702,7 @@
     </comp>
     <comp ref="MX4:1_NU2">
       <value>NUM_2</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF14053</tstamp>
@@ -1724,7 +1717,7 @@
     </comp>
     <comp ref="MX3:1_NU5">
       <value>NUM_5</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF14046</tstamp>
@@ -1739,7 +1732,7 @@
     </comp>
     <comp ref="MX2:1_NU8">
       <value>NUM_8</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF14039</tstamp>
@@ -1754,7 +1747,7 @@
     </comp>
     <comp ref="MX1:1_NU/1">
       <value>NUM_/</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF1402C</tstamp>
@@ -1769,7 +1762,7 @@
     </comp>
     <comp ref="MX0:1_PLAY1">
       <value>MEDIA_PLAY</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF1401F</tstamp>
@@ -1784,17 +1777,24 @@
     </comp>
     <comp ref="MX3:2_NU6">
       <value>NUM_6</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF5405C</tstamp>
     </comp>
     <comp ref="MX6:7_F6">
       <value>F6</value>
-      <footprint>MX_Alps_Hybrid:MX-1U-NoLED</footprint>
+      <footprint>MX_Only:MXOnly-1U-NoLED</footprint>
       <libsource lib="MX_Alps_Hybrid" part="MX-NoLED" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F016DE9</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>Molex-0548190572</value>
+      <footprint>ErlMod:Molex-0548190572</footprint>
+      <libsource lib="ErlMod" part="Molex-0548190572" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF557EB</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1879,20 +1879,27 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-AU">
-      <aliases>
-        <alias>ATmega16U4RC-AU</alias>
-        <alias>ATmega32U4-AU</alias>
-        <alias>ATmega32U4RC-AU</alias>
-      </aliases>
-      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+    <libpart lib="ErlMod" part="Molex-0548190572">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">Molex-0548190572</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="ID" type="input"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="D-" type="input"/>
+        <pin num="5" name="VBUS" type="input"/>
+        <pin num="6" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KeyboardPCB-rescue" part="ATmega32U4-AU-MCU_Microchip_ATmega">
       <footprints>
         <fp>TQFP*10x10mm*P0.8mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ATmega16U4-AU</field>
+        <field name="Value">ATmega32U4-AU-MCU_Microchip_ATmega</field>
         <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
       </fields>
       <pins>
@@ -1964,27 +1971,16 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="random-keyboard-parts" part="Molex-0548190589">
-      <fields>
-        <field name="Reference">USB</field>
-        <field name="Value">Molex-0548190589</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="input"/>
-        <pin num="2" name="ID" type="input"/>
-        <pin num="3" name="D+" type="input"/>
-        <pin num="4" name="D-" type="input"/>
-        <pin num="5" name="VBUS" type="input"/>
-        <pin num="6" name="SHIELD" type="input"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="MCU_Microchip_ATmega">
-      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    <library logical="ErlMod">
+      <uri>E:\Documents\Keyboard\PCB\erl-keyboard-pcb/ErlMod.pretty/Schematic Library/ErlMod.lib</uri>
+    </library>
+    <library logical="KeyboardPCB-rescue">
+      <uri>E:\Documents\Keyboard\PCB\erl-keyboard-pcb/KeyboardPCB-rescue.lib</uri>
     </library>
     <library logical="MX_Alps_Hybrid">
       <uri>E:\Documents\Keyboard\PCB\erl-keyboard-pcb/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib</uri>
@@ -1992,827 +1988,824 @@
     <library logical="Switch">
       <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
     </library>
-    <library logical="random-keyboard-parts">
-      <uri>E:\Documents\Keyboard\PCB\erl-keyboard-pcb/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(D2:7-Pad2)">
-      <node ref="MX2:7_E1" pin="2"/>
-      <node ref="D2:7" pin="2"/>
-    </net>
-    <net code="2" name="Net-(D3:7-Pad2)">
-      <node ref="MX3:7_D1" pin="2"/>
-      <node ref="D3:7" pin="2"/>
-    </net>
-    <net code="3" name="Net-(D4:7-Pad2)">
-      <node ref="MX4:7_C1" pin="2"/>
-      <node ref="D4:7" pin="2"/>
-    </net>
-    <net code="4" name="Net-(D6:7-Pad2)">
-      <node ref="MX6:7_F6" pin="2"/>
-      <node ref="D6:7" pin="2"/>
-    </net>
-    <net code="5" name="Net-(D7:7-Pad2)">
-      <node ref="D7:7" pin="2"/>
-      <node ref="MX7:7_8" pin="2"/>
-    </net>
-    <net code="6" name="Net-(D0:7-Pad2)">
-      <node ref="MX0:7_F1" pin="2"/>
-      <node ref="D0:7" pin="2"/>
-    </net>
-    <net code="7" name="Net-(D11:6-Pad2)">
-      <node ref="MX11:6_AGR1" pin="2"/>
-      <node ref="D11:6" pin="2"/>
-    </net>
-    <net code="8" name="Net-(D1:7-Pad2)">
+    <net code="1" name="Net-(D1:7-Pad2)">
       <node ref="D1:7" pin="2"/>
       <node ref="MX1:7_3" pin="2"/>
     </net>
-    <net code="9" name="Net-(D0:8-Pad2)">
+    <net code="2" name="Net-(D2:7-Pad2)">
+      <node ref="MX2:7_E1" pin="2"/>
+      <node ref="D2:7" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D3:7-Pad2)">
+      <node ref="D3:7" pin="2"/>
+      <node ref="MX3:7_D1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D4:7-Pad2)">
+      <node ref="MX4:7_C1" pin="2"/>
+      <node ref="D4:7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D6:7-Pad2)">
+      <node ref="MX6:7_F6" pin="2"/>
+      <node ref="D6:7" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D9:6-Pad2)">
+      <node ref="MX9:6_L1" pin="2"/>
+      <node ref="D9:6" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D10:6-Pad2)">
+      <node ref="MX10:6_.1" pin="2"/>
+      <node ref="D10:6" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D11:6-Pad2)">
+      <node ref="D11:6" pin="2"/>
+      <node ref="MX11:6_AGR1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D0:7-Pad2)">
+      <node ref="D0:7" pin="2"/>
+      <node ref="MX0:7_F1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D10:7-Pad2)">
+      <node ref="D10:7" pin="2"/>
+      <node ref="MX10:7_,1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D0:8-Pad2)">
       <node ref="D0:8" pin="2"/>
       <node ref="MX0:8_F2" pin="2"/>
     </net>
-    <net code="10" name="Net-(D1:8-Pad2)">
+    <net code="12" name="Net-(D1:8-Pad2)">
       <node ref="MX1:8_4" pin="2"/>
       <node ref="D1:8" pin="2"/>
     </net>
-    <net code="11" name="Net-(D2:8-Pad2)">
-      <node ref="D2:8" pin="2"/>
+    <net code="13" name="Net-(D2:8-Pad2)">
       <node ref="MX2:8_R1" pin="2"/>
+      <node ref="D2:8" pin="2"/>
     </net>
-    <net code="12" name="Net-(D3:8-Pad2)">
-      <node ref="D3:8" pin="2"/>
-      <node ref="MX3:8_F1" pin="2"/>
+    <net code="14" name="Net-(D7:7-Pad2)">
+      <node ref="MX7:7_8" pin="2"/>
+      <node ref="D7:7" pin="2"/>
     </net>
-    <net code="13" name="Net-(D8:7-Pad2)">
+    <net code="15" name="Net-(D8:7-Pad2)">
       <node ref="D8:7" pin="2"/>
       <node ref="MX8:7_I1" pin="2"/>
     </net>
-    <net code="14" name="Net-(D9:7-Pad2)">
-      <node ref="D9:7" pin="2"/>
+    <net code="16" name="Net-(D9:7-Pad2)">
       <node ref="MX9:7_K1" pin="2"/>
+      <node ref="D9:7" pin="2"/>
     </net>
-    <net code="15" name="Net-(D10:6-Pad2)">
-      <node ref="D10:6" pin="2"/>
-      <node ref="MX10:6_.1" pin="2"/>
+    <net code="17" name="Net-(D10:5-Pad2)">
+      <node ref="MX10:5_/1" pin="2"/>
+      <node ref="D10:5" pin="2"/>
     </net>
-    <net code="16" name="Net-(D10:7-Pad2)">
-      <node ref="MX10:7_,1" pin="2"/>
-      <node ref="D10:7" pin="2"/>
-    </net>
-    <net code="17" name="Net-(D11:5-Pad2)">
-      <node ref="MX11:5_OS1" pin="2"/>
+    <net code="18" name="Net-(D11:5-Pad2)">
       <node ref="D11:5" pin="2"/>
+      <node ref="MX11:5_OS1" pin="2"/>
     </net>
-    <net code="18" name="Net-(D0:6-Pad2)">
+    <net code="19" name="Net-(D0:6-Pad2)">
       <node ref="D0:6" pin="2"/>
       <node ref="MX0:6_ESC1" pin="2"/>
     </net>
-    <net code="19" name="Net-(D1:6-Pad2)">
-      <node ref="D1:6" pin="2"/>
+    <net code="20" name="Net-(D1:6-Pad2)">
       <node ref="MX1:6_2" pin="2"/>
+      <node ref="D1:6" pin="2"/>
     </net>
-    <net code="20" name="Net-(D2:6-Pad2)">
-      <node ref="D2:6" pin="2"/>
-      <node ref="MX2:6_W1" pin="2"/>
+    <net code="21" name="Net-(D7:5-Pad2)">
+      <node ref="D7:5" pin="2"/>
+      <node ref="MX7:5_0" pin="2"/>
     </net>
-    <net code="21" name="Net-(D9:5-Pad2)">
+    <net code="22" name="Net-(D8:5-Pad2)">
+      <node ref="MX8:5_P1" pin="2"/>
+      <node ref="D8:5" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D9:5-Pad2)">
       <node ref="MX9:5_;1" pin="2"/>
       <node ref="D9:5" pin="2"/>
     </net>
-    <net code="22" name="Net-(D8:5-Pad2)">
-      <node ref="D8:5" pin="2"/>
-      <node ref="MX8:5_P1" pin="2"/>
-    </net>
-    <net code="23" name="Net-(D3:6-Pad2)">
-      <node ref="MX3:6_S1" pin="2"/>
-      <node ref="D3:6" pin="2"/>
-    </net>
-    <net code="24" name="Net-(D10:5-Pad2)">
-      <node ref="D10:5" pin="2"/>
-      <node ref="MX10:5_/1" pin="2"/>
-    </net>
-    <net code="25" name="Net-(D7:6-Pad2)">
+    <net code="24" name="Net-(D7:6-Pad2)">
       <node ref="MX7:6_9" pin="2"/>
       <node ref="D7:6" pin="2"/>
     </net>
-    <net code="26" name="Net-(D8:6-Pad2)">
-      <node ref="D8:6" pin="2"/>
-      <node ref="MX8:6_O1" pin="2"/>
-    </net>
-    <net code="27" name="Net-(D9:6-Pad2)">
-      <node ref="D9:6" pin="2"/>
-      <node ref="MX9:6_L1" pin="2"/>
-    </net>
-    <net code="28" name="Net-(D4:6-Pad2)">
-      <node ref="D4:6" pin="2"/>
-      <node ref="MX4:6_X1" pin="2"/>
-    </net>
-    <net code="29" name="Net-(D5:5-Pad2)">
-      <node ref="MX5:5_LAL1" pin="2"/>
-      <node ref="D5:5" pin="2"/>
-    </net>
-    <net code="30" name="Net-(D6:6-Pad2)">
-      <node ref="D6:6" pin="2"/>
+    <net code="25" name="Net-(D6:6-Pad2)">
       <node ref="MX6:6_F7" pin="2"/>
+      <node ref="D6:6" pin="2"/>
     </net>
-    <net code="31" name="Net-(D9:9-Pad2)">
-      <node ref="D9:9" pin="2"/>
+    <net code="26" name="Net-(D5:5-Pad2)">
+      <node ref="D5:5" pin="2"/>
+      <node ref="MX5:5_LAL1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D8:6-Pad2)">
+      <node ref="MX8:6_O1" pin="2"/>
+      <node ref="D8:6" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D2:6-Pad2)">
+      <node ref="D2:6" pin="2"/>
+      <node ref="MX2:6_W1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D3:6-Pad2)">
+      <node ref="MX3:6_S1" pin="2"/>
+      <node ref="D3:6" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D4:6-Pad2)">
+      <node ref="MX4:6_X1" pin="2"/>
+      <node ref="D4:6" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D8:9-Pad2)">
+      <node ref="MX8:9_Y1" pin="2"/>
+      <node ref="D8:9" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D9:9-Pad2)">
       <node ref="MX9:9_H1" pin="2"/>
+      <node ref="D9:9" pin="2"/>
     </net>
-    <net code="32" name="Net-(D10:9-Pad2)">
+    <net code="33" name="Net-(D10:9-Pad2)">
       <node ref="MX10:9_N1" pin="2"/>
       <node ref="D10:9" pin="2"/>
     </net>
-    <net code="33" name="Net-(D10:8-Pad2)">
-      <node ref="D10:8" pin="2"/>
-      <node ref="MX10:8_M1" pin="2"/>
-    </net>
-    <net code="34" name="Net-(D9:8-Pad2)">
-      <node ref="MX9:8_J1" pin="2"/>
-      <node ref="D9:8" pin="2"/>
-    </net>
-    <net code="35" name="Net-(D8:8-Pad2)">
-      <node ref="D8:8" pin="2"/>
-      <node ref="MX8:8_U1" pin="2"/>
-    </net>
-    <net code="36" name="Net-(D0:9-Pad2)">
-      <node ref="D0:9" pin="2"/>
-      <node ref="MX0:9_F3" pin="2"/>
-    </net>
-    <net code="37" name="Net-(D1:9-Pad2)">
-      <node ref="MX1:9_5" pin="2"/>
-      <node ref="D1:9" pin="2"/>
-    </net>
-    <net code="38" name="Net-(D4:8-Pad2)">
-      <node ref="D4:8" pin="2"/>
-      <node ref="MX4:8_V1" pin="2"/>
-    </net>
-    <net code="39" name="Net-(D6:8-Pad2)">
-      <node ref="MX6:8_F5" pin="2"/>
-      <node ref="D6:8" pin="2"/>
-    </net>
-    <net code="40" name="Net-(D7:8-Pad2)">
-      <node ref="MX7:8_7" pin="2"/>
-      <node ref="D7:8" pin="2"/>
-    </net>
-    <net code="41" name="Net-(D5:6-Pad2)">
-      <node ref="D5:6" pin="2"/>
-      <node ref="MX5:9_SPC1" pin="2"/>
-    </net>
-    <net code="42" name="Net-(D6:9-Pad2)">
-      <node ref="D6:9" pin="2"/>
-      <node ref="MX6:9_F4" pin="2"/>
-    </net>
-    <net code="43" name="Net-(D7:9-Pad2)">
+    <net code="34" name="Net-(D7:9-Pad2)">
       <node ref="MX7:9_6" pin="2"/>
       <node ref="D7:9" pin="2"/>
     </net>
-    <net code="44" name="Net-(D8:9-Pad2)">
-      <node ref="D8:9" pin="2"/>
-      <node ref="MX8:9_Y1" pin="2"/>
+    <net code="35" name="Net-(D7:8-Pad2)">
+      <node ref="MX7:8_7" pin="2"/>
+      <node ref="D7:8" pin="2"/>
     </net>
-    <net code="45" name="Net-(D2:9-Pad2)">
-      <node ref="D2:9" pin="2"/>
-      <node ref="MX2:9_T1" pin="2"/>
+    <net code="36" name="Net-(D8:8-Pad2)">
+      <node ref="D8:8" pin="2"/>
+      <node ref="MX8:8_U1" pin="2"/>
     </net>
-    <net code="46" name="Net-(D3:9-Pad2)">
-      <node ref="MX3:9_G1" pin="2"/>
-      <node ref="D3:9" pin="2"/>
+    <net code="37" name="Net-(D9:8-Pad2)">
+      <node ref="MX9:8_J1" pin="2"/>
+      <node ref="D9:8" pin="2"/>
     </net>
-    <net code="47" name="Net-(D4:9-Pad2)">
+    <net code="38" name="Net-(D10:8-Pad2)">
+      <node ref="MX10:8_M1" pin="2"/>
+      <node ref="D10:8" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D4:8-Pad2)">
+      <node ref="MX4:8_V1" pin="2"/>
+      <node ref="D4:8" pin="2"/>
+    </net>
+    <net code="40" name="Net-(D3:8-Pad2)">
+      <node ref="D3:8" pin="2"/>
+      <node ref="MX3:8_F1" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D0:9-Pad2)">
+      <node ref="D0:9" pin="2"/>
+      <node ref="MX0:9_F3" pin="2"/>
+    </net>
+    <net code="42" name="Net-(D6:8-Pad2)">
+      <node ref="MX6:8_F5" pin="2"/>
+      <node ref="D6:8" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D4:9-Pad2)">
       <node ref="MX4:9_B1" pin="2"/>
       <node ref="D4:9" pin="2"/>
     </net>
-    <net code="48" name="Net-(D10:1-Pad2)">
-      <node ref="D10:1" pin="2"/>
-      <node ref="MX10:1_UP1" pin="2"/>
+    <net code="44" name="Net-(D5:6-Pad2)">
+      <node ref="MX5:9_SPC1" pin="2"/>
+      <node ref="D5:6" pin="2"/>
     </net>
-    <net code="49" name="Net-(D11:1-Pad2)">
-      <node ref="D11:1" pin="2"/>
-      <node ref="MX11:1_DWN1" pin="2"/>
+    <net code="45" name="Net-(D6:9-Pad2)">
+      <node ref="D6:9" pin="2"/>
+      <node ref="MX6:9_F4" pin="2"/>
     </net>
-    <net code="50" name="Net-(D0:2-Pad2)">
-      <node ref="MX0:2_FWD1" pin="2"/>
-      <node ref="D0:2" pin="2"/>
+    <net code="46" name="Net-(D1:9-Pad2)">
+      <node ref="MX1:9_5" pin="2"/>
+      <node ref="D1:9" pin="2"/>
     </net>
-    <net code="51" name="Net-(D1:2-Pad2)">
-      <node ref="MX1:2_NU*1" pin="2"/>
-      <node ref="D1:2" pin="2"/>
+    <net code="47" name="Net-(D6:5-Pad2)">
+      <node ref="D6:5" pin="2"/>
+      <node ref="MX6:5_F8" pin="2"/>
     </net>
-    <net code="52" name="Net-(D6:1-Pad2)">
-      <node ref="D6:1" pin="2"/>
-      <node ref="MX6:1_F12" pin="2"/>
+    <net code="48" name="Net-(D2:9-Pad2)">
+      <node ref="D2:9" pin="2"/>
+      <node ref="MX2:9_T1" pin="2"/>
     </net>
-    <net code="53" name="Net-(D7:1-Pad2)">
-      <node ref="D7:1" pin="2"/>
-      <node ref="MX7:1_INS1" pin="2"/>
+    <net code="49" name="Net-(D3:9-Pad2)">
+      <node ref="MX3:9_G1" pin="2"/>
+      <node ref="D3:9" pin="2"/>
     </net>
-    <net code="54" name="Net-(D8:1-Pad2)">
-      <node ref="MX8:1_DEL1" pin="2"/>
-      <node ref="D8:1" pin="2"/>
-    </net>
-    <net code="55" name="Net-(D9:1-Pad2)">
+    <net code="50" name="Net-(D9:1-Pad2)">
       <node ref="D9:1" pin="2"/>
       <node ref="MX9:1_SLK1" pin="2"/>
     </net>
-    <net code="56" name="Net-(D6:2-Pad2)">
-      <node ref="D6:2" pin="2"/>
-      <node ref="MX6:2_F11" pin="2"/>
+    <net code="51" name="Net-(D10:1-Pad2)">
+      <node ref="MX10:1_UP1" pin="2"/>
+      <node ref="D10:1" pin="2"/>
     </net>
-    <net code="57" name="Net-(D7:2-Pad2)">
-      <node ref="MX7:2_BSP1" pin="2"/>
-      <node ref="D7:2" pin="2"/>
+    <net code="52" name="Net-(D11:1-Pad2)">
+      <node ref="MX11:1_DWN1" pin="2"/>
+      <node ref="D11:1" pin="2"/>
     </net>
-    <net code="58" name="Net-(D8:2-Pad2)">
-      <node ref="MX8:2_\1" pin="2"/>
-      <node ref="D8:2" pin="2"/>
+    <net code="53" name="Net-(D0:2-Pad2)">
+      <node ref="MX0:2_FWD1" pin="2"/>
+      <node ref="D0:2" pin="2"/>
     </net>
-    <net code="59" name="Net-(D9:2-Pad2)">
-      <node ref="D9:2" pin="2"/>
-      <node ref="MX9:2_PUS1" pin="2"/>
-    </net>
-    <net code="60" name="Net-(D4:2-Pad2)">
-      <node ref="MX4:2_NU3" pin="2"/>
-      <node ref="D4:2" pin="2"/>
-    </net>
-    <net code="61" name="Net-(D2:2-Pad2)">
-      <node ref="MX2:2_NU9" pin="2"/>
-      <node ref="D2:2" pin="2"/>
-    </net>
-    <net code="62" name="Net-(D5:2-Pad2)">
-      <node ref="D5:2" pin="2"/>
-      <node ref="MX5:2_NUD1" pin="2"/>
-    </net>
-    <net code="63" name="Net-(D3:2-Pad2)">
-      <node ref="D3:2" pin="2"/>
-      <node ref="MX3:2_NU6" pin="2"/>
-    </net>
-    <net code="64" name="Net-(D1:1-Pad2)">
-      <node ref="MX1:1_NU/1" pin="2"/>
-      <node ref="D1:1" pin="2"/>
-    </net>
-    <net code="65" name="Net-(D2:1-Pad2)">
-      <node ref="MX2:1_NU8" pin="2"/>
-      <node ref="D2:1" pin="2"/>
-    </net>
-    <net code="66" name="Net-(D3:1-Pad2)">
-      <node ref="MX3:1_NU5" pin="2"/>
-      <node ref="D3:1" pin="2"/>
-    </net>
-    <net code="67" name="Net-(D4:1-Pad2)">
+    <net code="54" name="Net-(D4:1-Pad2)">
       <node ref="D4:1" pin="2"/>
       <node ref="MX4:1_NU2" pin="2"/>
     </net>
-    <net code="68" name="Net-(D11:2-Pad2)">
-      <node ref="D11:2" pin="2"/>
-      <node ref="MX11:2_LFT1" pin="2"/>
+    <net code="55" name="Net-(D6:1-Pad2)">
+      <node ref="MX6:1_F12" pin="2"/>
+      <node ref="D6:1" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D7:1-Pad2)">
+      <node ref="D7:1" pin="2"/>
+      <node ref="MX7:1_INS1" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D8:1-Pad2)">
+      <node ref="MX8:1_DEL1" pin="2"/>
+      <node ref="D8:1" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D5:2-Pad2)">
+      <node ref="D5:2" pin="2"/>
+      <node ref="MX5:2_NUD1" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D6:2-Pad2)">
+      <node ref="MX6:2_F11" pin="2"/>
+      <node ref="D6:2" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D7:2-Pad2)">
+      <node ref="MX7:2_BSP1" pin="2"/>
+      <node ref="D7:2" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D8:2-Pad2)">
+      <node ref="D8:2" pin="2"/>
+      <node ref="MX8:2_\1" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D1:2-Pad2)">
+      <node ref="D1:2" pin="2"/>
+      <node ref="MX1:2_NU*1" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D2:2-Pad2)">
+      <node ref="D2:2" pin="2"/>
+      <node ref="MX2:2_NU9" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D4:2-Pad2)">
+      <node ref="MX4:2_NU3" pin="2"/>
+      <node ref="D4:2" pin="2"/>
+    </net>
+    <net code="65" name="Net-(USB1-Pad6)">
+      <node ref="USB1" pin="6"/>
+    </net>
+    <net code="66" name="D-">
+      <node ref="R_D-1" pin="2"/>
+      <node ref="USB1" pin="4"/>
+    </net>
+    <net code="67" name="D+">
+      <node ref="R_D+1" pin="2"/>
+      <node ref="USB1" pin="3"/>
+    </net>
+    <net code="68" name="Net-(USB1-Pad2)">
+      <node ref="USB1" pin="2"/>
     </net>
     <net code="69" name="Net-(D0:1-Pad2)">
       <node ref="MX0:1_PLAY1" pin="2"/>
       <node ref="D0:1" pin="2"/>
     </net>
-    <net code="70" name="Net-(D10:4-Pad2)">
-      <node ref="MX10:4_RSH1" pin="2"/>
-      <node ref="D10:4" pin="2"/>
+    <net code="70" name="Net-(D1:1-Pad2)">
+      <node ref="D1:1" pin="2"/>
+      <node ref="MX1:1_NU/1" pin="2"/>
     </net>
-    <net code="71" name="Net-(D9:4-Pad2)">
-      <node ref="MX9:4_'1" pin="2"/>
-      <node ref="D9:4" pin="2"/>
+    <net code="71" name="Net-(D2:1-Pad2)">
+      <node ref="D2:1" pin="2"/>
+      <node ref="MX2:1_NU8" pin="2"/>
     </net>
-    <net code="72" name="Net-(D8:4-Pad2)">
-      <node ref="D8:4" pin="2"/>
-      <node ref="MX8:4_[1" pin="2"/>
+    <net code="72" name="Net-(D3:1-Pad2)">
+      <node ref="MX3:1_NU5" pin="2"/>
+      <node ref="D3:1" pin="2"/>
     </net>
-    <net code="73" name="Net-(D11:4-Pad2)">
-      <node ref="D11:4" pin="2"/>
-      <node ref="MX11:4_MEN1" pin="2"/>
+    <net code="73" name="Net-(D3:2-Pad2)">
+      <node ref="D3:2" pin="2"/>
+      <node ref="MX3:2_NU6" pin="2"/>
     </net>
-    <net code="74" name="Net-(D0:5-Pad2)">
-      <node ref="MX0:5_VOL+1" pin="2"/>
-      <node ref="D0:5" pin="2"/>
-    </net>
-    <net code="75" name="Net-(D5:3-Pad2)">
-      <node ref="MX5:3_LCT1" pin="2"/>
-      <node ref="D5:3" pin="2"/>
-    </net>
-    <net code="76" name="Net-(D6:4-Pad2)">
-      <node ref="MX6:4_F9" pin="2"/>
-      <node ref="D6:4" pin="2"/>
-    </net>
-    <net code="77" name="Net-(D7:4-Pad2)">
+    <net code="74" name="Net-(D7:4-Pad2)">
       <node ref="MX7:4_-1" pin="2"/>
       <node ref="D7:4" pin="2"/>
     </net>
-    <net code="78" name="Net-(D4:5-Pad2)">
-      <node ref="D4:5" pin="2"/>
-      <node ref="MX4:5_Z1" pin="2"/>
+    <net code="75" name="Net-(D8:4-Pad2)">
+      <node ref="MX8:4_[1" pin="2"/>
+      <node ref="D8:4" pin="2"/>
     </net>
-    <net code="79" name="Net-(D5:4-Pad2)">
+    <net code="76" name="Net-(D9:4-Pad2)">
+      <node ref="D9:4" pin="2"/>
+      <node ref="MX9:4_'1" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D10:4-Pad2)">
+      <node ref="MX10:4_RSH1" pin="2"/>
+      <node ref="D10:4" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D5:3-Pad2)">
+      <node ref="MX5:3_LCT1" pin="2"/>
+      <node ref="D5:3" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D4:4-Pad2)">
+      <node ref="D4:4" pin="2"/>
+      <node ref="MX4:4_LSH1" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D11:4-Pad2)">
+      <node ref="D11:4" pin="2"/>
+      <node ref="MX11:4_MEN1" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D6:4-Pad2)">
+      <node ref="MX6:4_F9" pin="2"/>
+      <node ref="D6:4" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D3:5-Pad2)">
+      <node ref="D3:5" pin="2"/>
+      <node ref="MX3:5_A1" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D4:5-Pad2)">
+      <node ref="MX4:5_Z1" pin="2"/>
+      <node ref="D4:5" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D5:4-Pad2)">
       <node ref="MX5:4_OS1" pin="2"/>
       <node ref="D5:4" pin="2"/>
     </net>
-    <net code="80" name="Net-(D6:5-Pad2)">
-      <node ref="MX6:5_F8" pin="2"/>
-      <node ref="D6:5" pin="2"/>
+    <net code="85" name="Net-(D0:5-Pad2)">
+      <node ref="MX0:5_VOL+1" pin="2"/>
+      <node ref="D0:5" pin="2"/>
     </net>
-    <net code="81" name="Net-(D7:5-Pad2)">
-      <node ref="MX7:5_0" pin="2"/>
-      <node ref="D7:5" pin="2"/>
-    </net>
-    <net code="82" name="Net-(D1:5-Pad2)">
-      <node ref="D1:5" pin="2"/>
+    <net code="86" name="Net-(D1:5-Pad2)">
       <node ref="MX1:5_1" pin="2"/>
+      <node ref="D1:5" pin="2"/>
     </net>
-    <net code="83" name="Net-(D2:5-Pad2)">
-      <node ref="D2:5" pin="2"/>
+    <net code="87" name="Net-(D2:5-Pad2)">
       <node ref="MX2:5_Q1" pin="2"/>
+      <node ref="D2:5" pin="2"/>
     </net>
-    <net code="84" name="Net-(D3:5-Pad2)">
-      <node ref="MX3:5_A1" pin="2"/>
-      <node ref="D3:5" pin="2"/>
-    </net>
-    <net code="85" name="Net-(D4:3-Pad2)">
+    <net code="88" name="Net-(D4:3-Pad2)">
       <node ref="MX4:3_NEN1" pin="2"/>
       <node ref="D4:3" pin="2"/>
     </net>
-    <net code="86" name="Net-(D6:3-Pad2)">
-      <node ref="D6:3" pin="2"/>
-      <node ref="MX6:3_F10" pin="2"/>
-    </net>
-    <net code="87" name="Net-(D7:3-Pad2)">
-      <node ref="MX7:3_=1" pin="2"/>
-      <node ref="D7:3" pin="2"/>
-    </net>
-    <net code="88" name="Net-(D8:3-Pad2)">
-      <node ref="D8:3" pin="2"/>
-      <node ref="MX8:3_]1" pin="2"/>
-    </net>
-    <net code="89" name="Net-(D0:3-Pad2)">
-      <node ref="D0:3" pin="2"/>
-      <node ref="MX0:3_MUT1" pin="2"/>
+    <net code="89" name="Net-(D2:3-Pad2)">
+      <node ref="D2:3" pin="2"/>
+      <node ref="MX2:3_NU+1" pin="2"/>
     </net>
     <net code="90" name="Net-(D1:3-Pad2)">
       <node ref="MX1:3_NU-1" pin="2"/>
       <node ref="D1:3" pin="2"/>
     </net>
-    <net code="91" name="Net-(D2:3-Pad2)">
-      <node ref="MX2:3_NU+1" pin="2"/>
-      <node ref="D2:3" pin="2"/>
+    <net code="91" name="Net-(D6:3-Pad2)">
+      <node ref="MX6:3_F10" pin="2"/>
+      <node ref="D6:3" pin="2"/>
     </net>
-    <net code="92" name="Net-(D1:4-Pad2)">
+    <net code="92" name="Net-(D7:3-Pad2)">
+      <node ref="D7:3" pin="2"/>
+      <node ref="MX7:3_=1" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D9:2-Pad2)">
+      <node ref="D9:2" pin="2"/>
+      <node ref="MX9:2_PUS1" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D11:2-Pad2)">
+      <node ref="D11:2" pin="2"/>
+      <node ref="MX11:2_LFT1" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D0:3-Pad2)">
+      <node ref="MX0:3_MUT1" pin="2"/>
+      <node ref="D0:3" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D0:4-Pad2)">
+      <node ref="D0:4" pin="2"/>
+      <node ref="MX0:4_VOL-1" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D1:4-Pad2)">
       <node ref="D1:4" pin="2"/>
       <node ref="MX1:4_TIL1" pin="2"/>
     </net>
-    <net code="93" name="Net-(D2:4-Pad2)">
-      <node ref="MX2:4_TAB1" pin="2"/>
+    <net code="98" name="Net-(D2:4-Pad2)">
       <node ref="D2:4" pin="2"/>
+      <node ref="MX2:4_TAB1" pin="2"/>
     </net>
-    <net code="94" name="Net-(D3:4-Pad2)">
-      <node ref="D3:4" pin="2"/>
+    <net code="99" name="Net-(D3:4-Pad2)">
       <node ref="MX3:4_CAP1" pin="2"/>
+      <node ref="D3:4" pin="2"/>
     </net>
-    <net code="95" name="Net-(D4:4-Pad2)">
-      <node ref="MX4:4_LSH1" pin="2"/>
-      <node ref="D4:4" pin="2"/>
+    <net code="100" name="Net-(D8:3-Pad2)">
+      <node ref="MX8:3_]1" pin="2"/>
+      <node ref="D8:3" pin="2"/>
     </net>
-    <net code="96" name="Net-(D9:3-Pad2)">
+    <net code="101" name="Net-(D9:3-Pad2)">
       <node ref="MX9:3_ENT1" pin="2"/>
       <node ref="D9:3" pin="2"/>
     </net>
-    <net code="97" name="Net-(D11:3-Pad2)">
+    <net code="102" name="Net-(D11:3-Pad2)">
       <node ref="MX11:3_RCT1" pin="2"/>
       <node ref="D11:3" pin="2"/>
     </net>
-    <net code="98" name="Net-(D0:4-Pad2)">
-      <node ref="MX0:4_VOL-1" pin="2"/>
-      <node ref="D0:4" pin="2"/>
-    </net>
-    <net code="99" name="Net-(D7:0-Pad2)">
-      <node ref="MX7:0_HOM1" pin="2"/>
-      <node ref="D7:0" pin="2"/>
-    </net>
-    <net code="100" name="Net-(D8:0-Pad2)">
-      <node ref="D8:0" pin="2"/>
-      <node ref="MX8:0_END1" pin="2"/>
-    </net>
-    <net code="101" name="Net-(D9:0-Pad2)">
-      <node ref="MX9:0_PGU1" pin="2"/>
-      <node ref="D9:0" pin="2"/>
-    </net>
-    <net code="102" name="Net-(D6:0-Pad2)">
-      <node ref="D6:0" pin="2"/>
-      <node ref="MX6:0_PRT1" pin="2"/>
-    </net>
-    <net code="103" name="Net-(D11:0-Pad2)">
-      <node ref="MX11:0_RGT1" pin="2"/>
-      <node ref="D11:0" pin="2"/>
-    </net>
-    <net code="104" name="Net-(D5:0-Pad2)">
-      <node ref="MX5:0_NU0" pin="2"/>
-      <node ref="D5:0" pin="2"/>
-    </net>
-    <net code="105" name="Net-(D10:0-Pad2)">
+    <net code="103" name="Net-(D10:0-Pad2)">
       <node ref="MX10:0_PGU1" pin="2"/>
       <node ref="D10:0" pin="2"/>
     </net>
-    <net code="106" name="Net-(D0:0-Pad2)">
-      <node ref="MX0:0_AFT1" pin="2"/>
-      <node ref="D0:0" pin="2"/>
+    <net code="104" name="Net-(D9:0-Pad2)">
+      <node ref="MX9:0_PGU1" pin="2"/>
+      <node ref="D9:0" pin="2"/>
     </net>
-    <net code="107" name="Net-(D1:0-Pad2)">
+    <net code="105" name="Net-(D8:0-Pad2)">
+      <node ref="MX8:0_END1" pin="2"/>
+      <node ref="D8:0" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D7:0-Pad2)">
+      <node ref="MX7:0_HOM1" pin="2"/>
+      <node ref="D7:0" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D11:0-Pad2)">
+      <node ref="MX11:0_RGT1" pin="2"/>
+      <node ref="D11:0" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D1:0-Pad2)">
       <node ref="MX1:0_NUM1" pin="2"/>
       <node ref="D1:0" pin="2"/>
     </net>
-    <net code="108" name="Net-(D2:0-Pad2)">
+    <net code="109" name="Net-(D2:0-Pad2)">
       <node ref="D2:0" pin="2"/>
       <node ref="MX2:0_NU7" pin="2"/>
     </net>
-    <net code="109" name="VCC">
-      <node ref="USB1" pin="5"/>
-      <node ref="FUSE_USB1" pin="2"/>
+    <net code="110" name="Net-(D3:0-Pad2)">
+      <node ref="MX3:0_NU4" pin="2"/>
+      <node ref="D3:0" pin="2"/>
     </net>
-    <net code="110" name="D+">
-      <node ref="R_D+1" pin="2"/>
-      <node ref="USB1" pin="3"/>
+    <net code="111" name="Net-(D0:0-Pad2)">
+      <node ref="D0:0" pin="2"/>
+      <node ref="MX0:0_AFT1" pin="2"/>
     </net>
-    <net code="111" name="D-">
-      <node ref="USB1" pin="4"/>
-      <node ref="R_D-1" pin="2"/>
+    <net code="112" name="Net-(D6:0-Pad2)">
+      <node ref="D6:0" pin="2"/>
+      <node ref="MX6:0_PRT1" pin="2"/>
     </net>
-    <net code="112" name="Net-(D4:0-Pad2)">
+    <net code="113" name="Net-(D5:0-Pad2)">
+      <node ref="D5:0" pin="2"/>
+      <node ref="MX5:0_NU0" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D4:0-Pad2)">
       <node ref="D4:0" pin="2"/>
       <node ref="MX4:0_NU1" pin="2"/>
     </net>
-    <net code="113" name="Net-(D3:0-Pad2)">
-      <node ref="D3:0" pin="2"/>
-      <node ref="MX3:0_NU4" pin="2"/>
+    <net code="115" name="Net-(CONT1-Pad13)">
+      <node ref="R_RESET1" pin="2"/>
+      <node ref="CONT1" pin="13"/>
+      <node ref="SW_RESET1" pin="2"/>
     </net>
-    <net code="114" name="Net-(C:1_CLOCK2-Pad1)">
-      <node ref="CONT1" pin="16"/>
-      <node ref="Y_CLOCK1" pin="3"/>
+    <net code="116" name="Net-(C:1_CLOCK2-Pad1)">
       <node ref="C:1_CLOCK2" pin="1"/>
+      <node ref="Y_CLOCK1" pin="3"/>
+      <node ref="CONT1" pin="16"/>
     </net>
-    <net code="115" name="Net-(C:0_CLOCK1-Pad1)">
+    <net code="117" name="VCC">
+      <node ref="USB1" pin="5"/>
+      <node ref="FUSE_USB1" pin="2"/>
+    </net>
+    <net code="118" name="Net-(C:0_CLOCK1-Pad1)">
+      <node ref="CONT1" pin="17"/>
       <node ref="Y_CLOCK1" pin="1"/>
       <node ref="C:0_CLOCK1" pin="1"/>
-      <node ref="CONT1" pin="17"/>
     </net>
-    <net code="116" name="GND">
-      <node ref="C:0_CLOCK1" pin="2"/>
-      <node ref="R:HWB1" pin="1"/>
-      <node ref="Y_CLOCK1" pin="4"/>
+    <net code="119" name="GND">
+      <node ref="C:DCP0" pin="2"/>
+      <node ref="Y_CLOCK1" pin="2"/>
       <node ref="CONT1" pin="5"/>
-      <node ref="CONT1" pin="43"/>
-      <node ref="C_UCAP1" pin="2"/>
-      <node ref="USB1" pin="1"/>
       <node ref="CONT1" pin="35"/>
       <node ref="CONT1" pin="15"/>
       <node ref="C:1_CLOCK2" pin="2"/>
-      <node ref="CONT1" pin="23"/>
       <node ref="SW_RESET1" pin="1"/>
-      <node ref="C:DCP2" pin="2"/>
-      <node ref="Y_CLOCK1" pin="2"/>
-      <node ref="C:DCP0" pin="2"/>
-      <node ref="C:DCP1" pin="2"/>
       <node ref="C:DCP3" pin="2"/>
+      <node ref="Y_CLOCK1" pin="4"/>
+      <node ref="C:DCP2" pin="2"/>
+      <node ref="C:0_CLOCK1" pin="2"/>
+      <node ref="R:HWB1" pin="1"/>
+      <node ref="CONT1" pin="43"/>
+      <node ref="USB1" pin="1"/>
+      <node ref="CONT1" pin="23"/>
+      <node ref="C_UCAP1" pin="2"/>
+      <node ref="C:DCP1" pin="2"/>
     </net>
-    <net code="117" name="+5V">
-      <node ref="CONT1" pin="44"/>
-      <node ref="CONT1" pin="7"/>
-      <node ref="CONT1" pin="34"/>
-      <node ref="CONT1" pin="14"/>
-      <node ref="C:DCP3" pin="1"/>
+    <net code="120" name="+5V">
       <node ref="CONT1" pin="2"/>
+      <node ref="CONT1" pin="14"/>
       <node ref="CONT1" pin="24"/>
-      <node ref="C:DCP0" pin="1"/>
-      <node ref="R_RESET1" pin="1"/>
-      <node ref="FUSE_USB1" pin="1"/>
-      <node ref="C:DCP2" pin="1"/>
       <node ref="C:DCP1" pin="1"/>
+      <node ref="C:DCP3" pin="1"/>
+      <node ref="C:DCP2" pin="1"/>
+      <node ref="CONT1" pin="7"/>
+      <node ref="C:DCP0" pin="1"/>
+      <node ref="CONT1" pin="44"/>
+      <node ref="CONT1" pin="34"/>
+      <node ref="FUSE_USB1" pin="1"/>
+      <node ref="R_RESET1" pin="1"/>
     </net>
-    <net code="118" name="Net-(CONT1-Pad9)">
+    <net code="121" name="Net-(CONT1-Pad9)">
       <node ref="CONT1" pin="9"/>
     </net>
-    <net code="119" name="Net-(CONT1-Pad8)">
+    <net code="122" name="Net-(CONT1-Pad8)">
       <node ref="CONT1" pin="8"/>
     </net>
-    <net code="120" name="Net-(CONT1-Pad4)">
-      <node ref="CONT1" pin="4"/>
+    <net code="123" name="Net-(CONT1-Pad4)">
       <node ref="R_D+1" pin="1"/>
+      <node ref="CONT1" pin="4"/>
     </net>
-    <net code="121" name="Net-(CONT1-Pad6)">
-      <node ref="CONT1" pin="6"/>
+    <net code="124" name="Net-(CONT1-Pad6)">
       <node ref="C_UCAP1" pin="1"/>
+      <node ref="CONT1" pin="6"/>
     </net>
-    <net code="122" name="Net-(CONT1-Pad3)">
-      <node ref="CONT1" pin="3"/>
+    <net code="125" name="Net-(CONT1-Pad3)">
       <node ref="R_D-1" pin="1"/>
+      <node ref="CONT1" pin="3"/>
     </net>
-    <net code="123" name="Net-(CONT1-Pad33)">
-      <node ref="R:HWB1" pin="2"/>
+    <net code="126" name="Net-(CONT1-Pad33)">
       <node ref="CONT1" pin="33"/>
+      <node ref="R:HWB1" pin="2"/>
     </net>
-    <net code="124" name="ROW8">
-      <node ref="D8:7" pin="1"/>
+    <net code="127" name="ROW8">
       <node ref="D8:3" pin="1"/>
-      <node ref="D8:9" pin="1"/>
-      <node ref="D8:5" pin="1"/>
-      <node ref="D8:8" pin="1"/>
-      <node ref="D8:2" pin="1"/>
-      <node ref="CONT1" pin="18"/>
-      <node ref="D8:6" pin="1"/>
       <node ref="D8:0" pin="1"/>
+      <node ref="D8:5" pin="1"/>
       <node ref="D8:1" pin="1"/>
+      <node ref="CONT1" pin="18"/>
+      <node ref="D8:7" pin="1"/>
+      <node ref="D8:2" pin="1"/>
+      <node ref="D8:6" pin="1"/>
+      <node ref="D8:8" pin="1"/>
+      <node ref="D8:9" pin="1"/>
       <node ref="D8:4" pin="1"/>
     </net>
-    <net code="125" name="COL2">
-      <node ref="MX1:2_NU*1" pin="1"/>
-      <node ref="MX3:2_NU6" pin="1"/>
-      <node ref="MX7:2_BSP1" pin="1"/>
-      <node ref="MX8:2_\1" pin="1"/>
-      <node ref="MX9:2_PUS1" pin="1"/>
+    <net code="128" name="COL2">
+      <node ref="CONT1" pin="26"/>
       <node ref="MX11:2_LFT1" pin="1"/>
       <node ref="MX2:2_NU9" pin="1"/>
-      <node ref="MX0:2_FWD1" pin="1"/>
-      <node ref="MX6:2_F11" pin="1"/>
-      <node ref="MX5:2_NUD1" pin="1"/>
+      <node ref="MX8:2_\1" pin="1"/>
       <node ref="MX4:2_NU3" pin="1"/>
-      <node ref="CONT1" pin="26"/>
+      <node ref="MX5:2_NUD1" pin="1"/>
+      <node ref="MX6:2_F11" pin="1"/>
+      <node ref="MX7:2_BSP1" pin="1"/>
+      <node ref="MX1:2_NU*1" pin="1"/>
+      <node ref="MX9:2_PUS1" pin="1"/>
+      <node ref="MX0:2_FWD1" pin="1"/>
+      <node ref="MX3:2_NU6" pin="1"/>
     </net>
-    <net code="126" name="COL0">
-      <node ref="MX1:0_NUM1" pin="1"/>
-      <node ref="MX5:0_NU0" pin="1"/>
-      <node ref="MX2:0_NU7" pin="1"/>
-      <node ref="MX10:0_PGU1" pin="1"/>
-      <node ref="CONT1" pin="25"/>
+    <net code="129" name="COL0">
       <node ref="MX11:0_RGT1" pin="1"/>
-      <node ref="MX4:0_NU1" pin="1"/>
       <node ref="MX3:0_NU4" pin="1"/>
+      <node ref="MX8:0_END1" pin="1"/>
       <node ref="MX9:0_PGU1" pin="1"/>
+      <node ref="MX10:0_PGU1" pin="1"/>
+      <node ref="MX4:0_NU1" pin="1"/>
+      <node ref="MX5:0_NU0" pin="1"/>
+      <node ref="CONT1" pin="25"/>
       <node ref="MX6:0_PRT1" pin="1"/>
       <node ref="MX7:0_HOM1" pin="1"/>
       <node ref="MX0:0_AFT1" pin="1"/>
-      <node ref="MX8:0_END1" pin="1"/>
+      <node ref="MX1:0_NUM1" pin="1"/>
+      <node ref="MX2:0_NU7" pin="1"/>
     </net>
-    <net code="127" name="COL1">
-      <node ref="MX10:1_UP1" pin="1"/>
-      <node ref="MX8:1_DEL1" pin="1"/>
-      <node ref="MX7:1_INS1" pin="1"/>
+    <net code="130" name="COL1">
       <node ref="MX11:1_DWN1" pin="1"/>
-      <node ref="MX9:1_SLK1" pin="1"/>
-      <node ref="CONT1" pin="22"/>
+      <node ref="MX10:1_UP1" pin="1"/>
+      <node ref="MX7:1_INS1" pin="1"/>
       <node ref="MX6:1_F12" pin="1"/>
-      <node ref="MX4:1_NU2" pin="1"/>
-      <node ref="MX3:1_NU5" pin="1"/>
-      <node ref="MX0:1_PLAY1" pin="1"/>
+      <node ref="MX9:1_SLK1" pin="1"/>
+      <node ref="MX8:1_DEL1" pin="1"/>
       <node ref="MX2:1_NU8" pin="1"/>
       <node ref="MX1:1_NU/1" pin="1"/>
+      <node ref="MX3:1_NU5" pin="1"/>
+      <node ref="MX4:1_NU2" pin="1"/>
+      <node ref="MX0:1_PLAY1" pin="1"/>
+      <node ref="CONT1" pin="22"/>
     </net>
-    <net code="128" name="ROW7">
+    <net code="131" name="ROW7">
+      <node ref="D7:5" pin="1"/>
+      <node ref="D7:8" pin="1"/>
+      <node ref="D7:1" pin="1"/>
+      <node ref="D7:3" pin="1"/>
       <node ref="CONT1" pin="21"/>
       <node ref="D7:6" pin="1"/>
-      <node ref="D7:1" pin="1"/>
-      <node ref="D7:8" pin="1"/>
-      <node ref="D7:9" pin="1"/>
-      <node ref="D7:7" pin="1"/>
-      <node ref="D7:2" pin="1"/>
-      <node ref="D7:3" pin="1"/>
-      <node ref="D7:0" pin="1"/>
-      <node ref="D7:5" pin="1"/>
       <node ref="D7:4" pin="1"/>
+      <node ref="D7:9" pin="1"/>
+      <node ref="D7:2" pin="1"/>
+      <node ref="D7:0" pin="1"/>
+      <node ref="D7:7" pin="1"/>
     </net>
-    <net code="129" name="ROW10">
-      <node ref="D10:7" pin="1"/>
-      <node ref="D10:8" pin="1"/>
+    <net code="132" name="ROW10">
       <node ref="CONT1" pin="20"/>
-      <node ref="D10:5" pin="1"/>
-      <node ref="D10:6" pin="1"/>
-      <node ref="D10:4" pin="1"/>
-      <node ref="D10:9" pin="1"/>
       <node ref="D10:1" pin="1"/>
+      <node ref="D10:6" pin="1"/>
+      <node ref="D10:8" pin="1"/>
+      <node ref="D10:9" pin="1"/>
+      <node ref="D10:5" pin="1"/>
+      <node ref="D10:4" pin="1"/>
       <node ref="D10:0" pin="1"/>
+      <node ref="D10:7" pin="1"/>
     </net>
-    <net code="130" name="ROW9">
+    <net code="133" name="ROW9">
       <node ref="D9:0" pin="1"/>
-      <node ref="D9:1" pin="1"/>
       <node ref="D9:9" pin="1"/>
-      <node ref="D9:6" pin="1"/>
       <node ref="D9:8" pin="1"/>
-      <node ref="D9:2" pin="1"/>
-      <node ref="D9:5" pin="1"/>
-      <node ref="CONT1" pin="19"/>
-      <node ref="D9:7" pin="1"/>
-      <node ref="D9:4" pin="1"/>
+      <node ref="D9:6" pin="1"/>
       <node ref="D9:3" pin="1"/>
+      <node ref="D9:2" pin="1"/>
+      <node ref="D9:4" pin="1"/>
+      <node ref="D9:1" pin="1"/>
+      <node ref="D9:7" pin="1"/>
+      <node ref="CONT1" pin="19"/>
+      <node ref="D9:5" pin="1"/>
     </net>
-    <net code="131" name="COL3">
+    <net code="134" name="COL3">
+      <node ref="MX1:3_NU-1" pin="1"/>
+      <node ref="MX8:3_]1" pin="1"/>
       <node ref="MX6:3_F10" pin="1"/>
       <node ref="MX4:3_NEN1" pin="1"/>
-      <node ref="MX8:3_]1" pin="1"/>
-      <node ref="CONT1" pin="27"/>
-      <node ref="MX7:3_=1" pin="1"/>
-      <node ref="MX9:3_ENT1" pin="1"/>
-      <node ref="MX1:3_NU-1" pin="1"/>
       <node ref="MX11:3_RCT1" pin="1"/>
-      <node ref="MX0:3_MUT1" pin="1"/>
+      <node ref="MX7:3_=1" pin="1"/>
       <node ref="MX2:3_NU+1" pin="1"/>
+      <node ref="MX9:3_ENT1" pin="1"/>
+      <node ref="MX0:3_MUT1" pin="1"/>
+      <node ref="CONT1" pin="27"/>
     </net>
-    <net code="132" name="ROW6">
-      <node ref="D6:6" pin="1"/>
-      <node ref="D6:2" pin="1"/>
-      <node ref="D6:7" pin="1"/>
-      <node ref="D6:5" pin="1"/>
-      <node ref="D6:8" pin="1"/>
-      <node ref="D6:1" pin="1"/>
+    <net code="135" name="ROW6">
       <node ref="D6:4" pin="1"/>
-      <node ref="CONT1" pin="12"/>
-      <node ref="D6:0" pin="1"/>
+      <node ref="D6:5" pin="1"/>
       <node ref="D6:3" pin="1"/>
+      <node ref="D6:7" pin="1"/>
+      <node ref="CONT1" pin="12"/>
+      <node ref="D6:8" pin="1"/>
       <node ref="D6:9" pin="1"/>
+      <node ref="D6:2" pin="1"/>
+      <node ref="D6:1" pin="1"/>
+      <node ref="D6:6" pin="1"/>
+      <node ref="D6:0" pin="1"/>
     </net>
-    <net code="133" name="ROW1">
-      <node ref="D1:2" pin="1"/>
-      <node ref="D1:0" pin="1"/>
+    <net code="136" name="ROW1">
       <node ref="CONT1" pin="11"/>
-      <node ref="D1:1" pin="1"/>
+      <node ref="D1:7" pin="1"/>
       <node ref="D1:9" pin="1"/>
+      <node ref="D1:0" pin="1"/>
+      <node ref="D1:8" pin="1"/>
+      <node ref="D1:1" pin="1"/>
       <node ref="D1:4" pin="1"/>
       <node ref="D1:3" pin="1"/>
-      <node ref="D1:6" pin="1"/>
-      <node ref="D1:7" pin="1"/>
+      <node ref="D1:2" pin="1"/>
       <node ref="D1:5" pin="1"/>
-      <node ref="D1:8" pin="1"/>
+      <node ref="D1:6" pin="1"/>
     </net>
-    <net code="134" name="ROW0">
+    <net code="137" name="ROW0">
       <node ref="D0:6" pin="1"/>
+      <node ref="D0:5" pin="1"/>
+      <node ref="D0:8" pin="1"/>
       <node ref="D0:0" pin="1"/>
+      <node ref="D0:1" pin="1"/>
+      <node ref="D0:4" pin="1"/>
       <node ref="D0:3" pin="1"/>
       <node ref="D0:9" pin="1"/>
-      <node ref="D0:5" pin="1"/>
-      <node ref="D0:4" pin="1"/>
+      <node ref="D0:2" pin="1"/>
       <node ref="CONT1" pin="10"/>
       <node ref="D0:7" pin="1"/>
-      <node ref="D0:8" pin="1"/>
-      <node ref="D0:2" pin="1"/>
-      <node ref="D0:1" pin="1"/>
     </net>
-    <net code="135" name="Net-(CONT1-Pad42)">
+    <net code="138" name="Net-(CONT1-Pad42)">
       <node ref="CONT1" pin="42"/>
     </net>
-    <net code="136" name="COL4">
+    <net code="139" name="COL4">
       <node ref="MX8:4_[1" pin="1"/>
-      <node ref="MX11:4_MEN1" pin="1"/>
-      <node ref="MX5:3_LCT1" pin="1"/>
-      <node ref="MX7:4_-1" pin="1"/>
       <node ref="MX4:4_LSH1" pin="1"/>
+      <node ref="MX5:3_LCT1" pin="1"/>
+      <node ref="MX6:4_F9" pin="1"/>
+      <node ref="MX7:4_-1" pin="1"/>
+      <node ref="MX11:4_MEN1" pin="1"/>
+      <node ref="MX10:4_RSH1" pin="1"/>
       <node ref="MX9:4_'1" pin="1"/>
       <node ref="CONT1" pin="41"/>
-      <node ref="MX10:4_RSH1" pin="1"/>
-      <node ref="MX3:4_CAP1" pin="1"/>
       <node ref="MX2:4_TAB1" pin="1"/>
       <node ref="MX1:4_TIL1" pin="1"/>
-      <node ref="MX6:4_F9" pin="1"/>
       <node ref="MX0:4_VOL-1" pin="1"/>
+      <node ref="MX3:4_CAP1" pin="1"/>
     </net>
-    <net code="137" name="COL5">
+    <net code="140" name="COL5">
+      <node ref="MX5:4_OS1" pin="1"/>
+      <node ref="CONT1" pin="40"/>
+      <node ref="MX4:5_Z1" pin="1"/>
+      <node ref="MX6:5_F8" pin="1"/>
+      <node ref="MX3:5_A1" pin="1"/>
+      <node ref="MX1:5_1" pin="1"/>
+      <node ref="MX0:5_VOL+1" pin="1"/>
+      <node ref="MX2:5_Q1" pin="1"/>
+      <node ref="MX11:5_OS1" pin="1"/>
+      <node ref="MX7:5_0" pin="1"/>
       <node ref="MX8:5_P1" pin="1"/>
       <node ref="MX9:5_;1" pin="1"/>
       <node ref="MX10:5_/1" pin="1"/>
-      <node ref="MX0:5_VOL+1" pin="1"/>
-      <node ref="MX11:5_OS1" pin="1"/>
-      <node ref="MX7:5_0" pin="1"/>
-      <node ref="CONT1" pin="40"/>
-      <node ref="MX3:5_A1" pin="1"/>
-      <node ref="MX6:5_F8" pin="1"/>
-      <node ref="MX5:4_OS1" pin="1"/>
-      <node ref="MX2:5_Q1" pin="1"/>
-      <node ref="MX4:5_Z1" pin="1"/>
-      <node ref="MX1:5_1" pin="1"/>
     </net>
-    <net code="138" name="COL6">
-      <node ref="MX4:6_X1" pin="1"/>
-      <node ref="MX3:6_S1" pin="1"/>
-      <node ref="MX2:6_W1" pin="1"/>
-      <node ref="MX7:6_9" pin="1"/>
-      <node ref="MX8:6_O1" pin="1"/>
-      <node ref="MX9:6_L1" pin="1"/>
-      <node ref="MX5:5_LAL1" pin="1"/>
-      <node ref="MX10:6_.1" pin="1"/>
-      <node ref="MX1:6_2" pin="1"/>
-      <node ref="MX0:6_ESC1" pin="1"/>
-      <node ref="MX11:6_AGR1" pin="1"/>
-      <node ref="MX6:6_F7" pin="1"/>
-      <node ref="CONT1" pin="39"/>
-    </net>
-    <net code="139" name="COL7">
-      <node ref="MX3:7_D1" pin="1"/>
+    <net code="141" name="COL7">
       <node ref="MX6:7_F6" pin="1"/>
-      <node ref="MX9:7_K1" pin="1"/>
-      <node ref="MX8:7_I1" pin="1"/>
-      <node ref="MX2:7_E1" pin="1"/>
-      <node ref="CONT1" pin="38"/>
       <node ref="MX10:7_,1" pin="1"/>
       <node ref="MX1:7_3" pin="1"/>
       <node ref="MX0:7_F1" pin="1"/>
-      <node ref="MX7:7_8" pin="1"/>
       <node ref="MX4:7_C1" pin="1"/>
+      <node ref="MX3:7_D1" pin="1"/>
+      <node ref="CONT1" pin="39"/>
+      <node ref="MX2:7_E1" pin="1"/>
+      <node ref="MX7:7_8" pin="1"/>
+      <node ref="MX8:7_I1" pin="1"/>
+      <node ref="MX9:7_K1" pin="1"/>
     </net>
-    <net code="140" name="COL8">
-      <node ref="MX0:8_F2" pin="1"/>
-      <node ref="MX9:8_J1" pin="1"/>
-      <node ref="MX10:8_M1" pin="1"/>
+    <net code="142" name="COL6">
+      <node ref="MX4:6_X1" pin="1"/>
+      <node ref="MX5:5_LAL1" pin="1"/>
+      <node ref="MX0:6_ESC1" pin="1"/>
+      <node ref="MX1:6_2" pin="1"/>
+      <node ref="MX2:6_W1" pin="1"/>
+      <node ref="MX6:6_F7" pin="1"/>
+      <node ref="MX7:6_9" pin="1"/>
+      <node ref="MX11:6_AGR1" pin="1"/>
+      <node ref="MX10:6_.1" pin="1"/>
+      <node ref="CONT1" pin="38"/>
+      <node ref="MX3:6_S1" pin="1"/>
+      <node ref="MX9:6_L1" pin="1"/>
+      <node ref="MX8:6_O1" pin="1"/>
+    </net>
+    <net code="143" name="COL8">
       <node ref="MX6:8_F5" pin="1"/>
+      <node ref="MX4:8_V1" pin="1"/>
+      <node ref="MX2:8_R1" pin="1"/>
+      <node ref="MX3:8_F1" pin="1"/>
+      <node ref="MX0:8_F2" pin="1"/>
+      <node ref="MX1:8_4" pin="1"/>
+      <node ref="MX10:8_M1" pin="1"/>
+      <node ref="CONT1" pin="37"/>
       <node ref="MX7:8_7" pin="1"/>
       <node ref="MX8:8_U1" pin="1"/>
-      <node ref="MX3:8_F1" pin="1"/>
-      <node ref="MX2:8_R1" pin="1"/>
-      <node ref="MX4:8_V1" pin="1"/>
-      <node ref="MX1:8_4" pin="1"/>
-      <node ref="CONT1" pin="37"/>
+      <node ref="MX9:8_J1" pin="1"/>
     </net>
-    <net code="141" name="COL9">
-      <node ref="MX6:9_F4" pin="1"/>
-      <node ref="MX9:9_H1" pin="1"/>
-      <node ref="MX4:9_B1" pin="1"/>
-      <node ref="MX3:9_G1" pin="1"/>
-      <node ref="MX2:9_T1" pin="1"/>
-      <node ref="MX8:9_Y1" pin="1"/>
+    <net code="144" name="COL9">
       <node ref="MX10:9_N1" pin="1"/>
-      <node ref="CONT1" pin="36"/>
+      <node ref="MX9:9_H1" pin="1"/>
       <node ref="MX0:9_F3" pin="1"/>
-      <node ref="MX1:9_5" pin="1"/>
+      <node ref="MX4:9_B1" pin="1"/>
       <node ref="MX5:9_SPC1" pin="1"/>
+      <node ref="MX6:9_F4" pin="1"/>
       <node ref="MX7:9_6" pin="1"/>
+      <node ref="MX2:9_T1" pin="1"/>
+      <node ref="MX1:9_5" pin="1"/>
+      <node ref="MX3:9_G1" pin="1"/>
+      <node ref="MX8:9_Y1" pin="1"/>
+      <node ref="CONT1" pin="36"/>
     </net>
-    <net code="142" name="ROW11">
-      <node ref="D11:0" pin="1"/>
+    <net code="145" name="ROW11">
+      <node ref="D11:4" pin="1"/>
       <node ref="D11:2" pin="1"/>
-      <node ref="D11:5" pin="1"/>
+      <node ref="D11:3" pin="1"/>
+      <node ref="D11:0" pin="1"/>
+      <node ref="D11:6" pin="1"/>
       <node ref="CONT1" pin="32"/>
       <node ref="D11:1" pin="1"/>
-      <node ref="D11:3" pin="1"/>
-      <node ref="D11:4" pin="1"/>
-      <node ref="D11:6" pin="1"/>
+      <node ref="D11:5" pin="1"/>
     </net>
-    <net code="143" name="ROW5">
-      <node ref="CONT1" pin="31"/>
-      <node ref="D5:4" pin="1"/>
-      <node ref="D5:0" pin="1"/>
-      <node ref="D5:6" pin="1"/>
+    <net code="146" name="ROW5">
       <node ref="D5:5" pin="1"/>
+      <node ref="D5:4" pin="1"/>
+      <node ref="CONT1" pin="31"/>
       <node ref="D5:3" pin="1"/>
+      <node ref="D5:0" pin="1"/>
       <node ref="D5:2" pin="1"/>
+      <node ref="D5:6" pin="1"/>
     </net>
-    <net code="144" name="ROW4">
-      <node ref="D4:4" pin="1"/>
+    <net code="147" name="ROW4">
       <node ref="D4:0" pin="1"/>
-      <node ref="D4:2" pin="1"/>
       <node ref="D4:3" pin="1"/>
+      <node ref="CONT1" pin="30"/>
       <node ref="D4:7" pin="1"/>
       <node ref="D4:8" pin="1"/>
-      <node ref="CONT1" pin="30"/>
-      <node ref="D4:6" pin="1"/>
+      <node ref="D4:2" pin="1"/>
       <node ref="D4:1" pin="1"/>
+      <node ref="D4:4" pin="1"/>
       <node ref="D4:9" pin="1"/>
       <node ref="D4:5" pin="1"/>
+      <node ref="D4:6" pin="1"/>
     </net>
-    <net code="145" name="ROW3">
-      <node ref="D3:6" pin="1"/>
-      <node ref="D3:9" pin="1"/>
-      <node ref="D3:2" pin="1"/>
-      <node ref="D3:1" pin="1"/>
-      <node ref="D3:7" pin="1"/>
+    <net code="148" name="ROW3">
       <node ref="D3:4" pin="1"/>
-      <node ref="D3:8" pin="1"/>
+      <node ref="D3:6" pin="1"/>
+      <node ref="D3:1" pin="1"/>
       <node ref="D3:0" pin="1"/>
+      <node ref="D3:7" pin="1"/>
+      <node ref="D3:2" pin="1"/>
       <node ref="D3:5" pin="1"/>
       <node ref="CONT1" pin="29"/>
+      <node ref="D3:9" pin="1"/>
+      <node ref="D3:8" pin="1"/>
     </net>
-    <net code="146" name="ROW2">
-      <node ref="D2:6" pin="1"/>
+    <net code="149" name="ROW2">
       <node ref="D2:7" pin="1"/>
-      <node ref="D2:8" pin="1"/>
       <node ref="D2:1" pin="1"/>
+      <node ref="D2:6" pin="1"/>
       <node ref="D2:9" pin="1"/>
-      <node ref="D2:4" pin="1"/>
       <node ref="D2:2" pin="1"/>
       <node ref="D2:3" pin="1"/>
+      <node ref="D2:4" pin="1"/>
+      <node ref="D2:8" pin="1"/>
       <node ref="CONT1" pin="28"/>
-      <node ref="D2:5" pin="1"/>
       <node ref="D2:0" pin="1"/>
-    </net>
-    <net code="147" name="Net-(CONT1-Pad13)">
-      <node ref="SW_RESET1" pin="2"/>
-      <node ref="R_RESET1" pin="2"/>
-      <node ref="CONT1" pin="13"/>
-    </net>
-    <net code="148" name="Net-(USB1-Pad6)">
-      <node ref="USB1" pin="6"/>
-    </net>
-    <net code="149" name="Net-(USB1-Pad2)">
-      <node ref="USB1" pin="2"/>
+      <node ref="D2:5" pin="1"/>
     </net>
     <net code="150" name="Net-(CONT1-Pad1)">
       <node ref="CONT1" pin="1"/>
